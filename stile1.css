@@ -1,0 +1,72 @@
+body {
+    background-image: url("background.jpg");
+    background-size: 100% 100%;
+}
+
+body > div {
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+}
+
+h1 > span {
+    color: yellow;
+}
+header > img {
+    width: 200px;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+header > h1 {
+    color: rgb(1, 194, 1);
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+}
+
+
+main > h2 {
+    display: inline-block;
+    margin-bottom: 1px;
+}
+
+main {
+    color: white;
+    padding: 50px;
+}
+
+#carica-completa,#carica-parziale,#carica-minima {
+    height: 20px;
+    border: 1px black solid;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+#carica-completa{
+    width: 600px;
+    background-color: green;
+}
+
+#carica-parziale {
+    width: 350px;
+    background-color: orange;
+}
+
+#carica-minima {
+    width: 150px;
+    background-color: red;
+}
+
+footer {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
