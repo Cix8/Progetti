@@ -15,6 +15,7 @@ body > div {
 h1 > span {
     color: yellow;
 }
+
 header > img {
     width: 200px;
     margin-left: 40%;
