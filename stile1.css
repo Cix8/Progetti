@@ -44,24 +44,24 @@ main {
     padding: 50px;
 }
 
-#carica-completa,#carica-parziale,#carica-minima {
+main > div {
     height: 20px;
     border: 1px black solid;
     margin: 1px;
     border-radius: 10px;
 }
 
-#carica-completa{
+.carica-completa{
     width: 600px;
     background-color: green;
 }
 
-#carica-parziale {
+.carica-parziale {
     width: 350px;
     background-color: orange;
 }
 
-#carica-minima {
+.carica-minima {
     width: 150px;
     background-color: red;
 }
