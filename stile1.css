@@ -44,24 +44,24 @@ main {
     padding: 50px;
 }
 
-main > div {
+.carica {
     height: 20px;
     border: 1px black solid;
     margin: 1px;
     border-radius: 10px;
 }
 
-.carica-completa{
+.completa{
     width: 600px;
     background-color: green;
 }
 
-.carica-parziale {
+.parziale {
     width: 350px;
     background-color: orange;
 }
 
-.carica-minima {
+.minima {
     width: 150px;
     background-color: red;
 }
